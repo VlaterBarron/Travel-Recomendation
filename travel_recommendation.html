@@ -8,14 +8,15 @@
 <body>
     <div class="nav">
         <nav>
+            <h3>Xplore</h3>
             <ul>
                 <li><a href="./travel_recommendation.html">Home</a></li>
                 <li><a href="./about_us.html">About Us</a></li>
                 <li><a href="./contact_us.html">Contact Us</a></li>
             </ul>
-            <input type="text" name="" id="" placeholder="Enter a destination or keyword">
-            <button>Search</button>
-            <button>Clear</button>
+            <input type="text" name="search" id="search" placeholder="Enter a destination or keyword">
+            <button id="searchBtn">Search</button>
+            <button id="clearBtn">Clear</button>
         </nav>
     </div>
     <div class="home-page">
@@ -37,9 +38,10 @@
                 <button>Book now</button>
             </div>
         </section>
-        <section class="home-page__main--recommendations">
-            
+        <section class="home-page__main--recommendations" id="recommendations">
+
         </section>
     </div>
+    <script src="travel_recommendation.js"></script>
 </body>
 </html>
