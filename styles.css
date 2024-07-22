@@ -1,0 +1,87 @@
+* {
+    padding: 5px;
+    margin: 0px;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.nav {
+    background-color: darkcyan !important;
+    color: whitesmoke;
+}
+
+nav, h3 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.1rem;
+}
+
+#searchBtn {
+    width: fit-content;
+}
+
+#search {
+    width: 180px;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.home-page {
+    display: flex;
+    justify-content: center;
+}
+
+.home-page__about-us__down--team {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-page__about-us__down--members {
+    border: 1px solid darkcyan;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.home-page__about-us__down--label {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.home-page__contact {
+    text-align: center;
+}
+
+.home-page__contact--form > input, label, button {
+    display: block;
+}
+
+#submitBtn {
+    margin-top: 20px;
+}
+
